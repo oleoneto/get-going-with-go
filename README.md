@@ -8,6 +8,10 @@ Exploring the [`go`](https://go.dev) programming language.
 
 ## Commands
 - `go help`
+- `go test`
+- `go build`
+- `go list` (show the install path of a package)
+- `go install`
 - `go mod init some/module` (enable dependency tracking)
 - `go mod tidy` (similar to `npm install`)
 - `go run {{module_path}}` (similar to `node {{filename}}`)
