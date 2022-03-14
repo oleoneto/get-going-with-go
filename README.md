@@ -5,6 +5,8 @@ Exploring the [`go`](https://go.dev) programming language.
 ## Useful links
 - [Getting Started Guides](https://go.dev/doc)
 - [Package Index](https://pkg.go.dev)
+- [Managing dependencies](https://go.dev/doc/modules/managing-dependencies)
+- [Developing and publishing modules](https://go.dev/doc/modules/developing)
 
 ## Commands
 - `go help`
