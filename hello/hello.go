@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 	"log"
-	"rsc.io/quote"
+
 	"example.com/greetings"
+	"rsc.io/quote"
 )
 
 func printQuote() {
@@ -21,7 +22,6 @@ func greetPerson(name string) {
 	fmt.Println(message)
 }
 
-
 func greetPeople(names []string) {
 	messages, err := greetings.Hellos(names)
 
@@ -33,7 +33,6 @@ func greetPeople(names []string) {
 		fmt.Println(messages[name])
 	}
 }
-
 
 func main() {
 	// Prepare Logger
